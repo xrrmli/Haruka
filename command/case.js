@@ -59,7 +59,7 @@ const { uploadImages } = require('../lib/uploadimage')
 
 //json
 const antilink = JSON.parse(fs.readFileSync('./database/group/antilink.json'))
-const _registered = JSON.parse(fs.readFileSync('./settings/Haruka.jpg'))
+const _registered = JSON.parse(fs.readFileSync('./database/user/registered.json'))
 const _limit = JSON.parse(fs.readFileSync('./database/user/limit.json'))
 const premium = JSON.parse(fs.readFileSync('./database/user/premium.json'))
 const { getRegisterNo, getRegisterName, getRegisterSerial, getRegisterAge, getRegisterTime, getRegisteredRandomId, addRegisteredUser, createSerial, checkRegisteredUser } = require('../database/user/register.js')
