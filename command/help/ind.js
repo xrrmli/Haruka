@@ -8,7 +8,7 @@ exports.limitend = (pushname) => {
 	return`Sorry ${pushname} limit hari ini telah habis\nlimit di reset setiap jam 24:00`
 }
 exports.noregis = (pushname) =>{
-	return` 🙅‍♀️ Hello ${pushname} you haven't registeredar, type register/daftar first`
+	return` 🙅‍♀️ Hello ${pushname} you haven't registered, type register/daftar first`
 	}
 exports.regis = () =>{
 	return`  you already registered`
@@ -47,13 +47,8 @@ exports.ok = () =>{
 	return` ✅ Oke done ~`
 	}
 exports.welcome = () =>{
-	return`Jangan Lupa Intro Ya~
-⌯ָ   ֙Nama :
-⌯ָ   ֙Umur :
-⌯ָ   ֙Kelamin :
-⌯ָ   ֙Askot :
-╰─ ᝬ _Patuhi Rules Group Ya_  >_<`
-      }
+	return`Welcome!~`
+        }
 exports.leave = () =>{
 	return`
 │
