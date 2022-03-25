@@ -8,10 +8,10 @@ global.anti_delete = false
 
 // setting
 global.ownername ="Ram"
-global.ownernumber = "6285892793169"
+global.ownernumber = "6287822886878"
 global.botname = "R-Bot"
 global.thumbnail = fs.readFileSync("./settings/Haruka.jpg") //sesuaikan dengan nama foto
-global.background = "https://telegra.ph/file/14a1fe50b978c37df3f89.jpg"
+global.background = "https://telegra.ph/file/ec68173a36faa3f70632e.jpg"
 global.lolkey = 'e966d3aac613b61dabd35cc6' //register lolhuman.xyz klo mau apikey
 global.zenzkey = '8423e19c13' //register zenzapi.xyz klo mau apikey
 global.limit = {
