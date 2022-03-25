@@ -8,21 +8,20 @@ exports.limitend = (pushname) => {
 	return`Sorry ${pushname} limit hari ini telah habis\nlimit di reset setiap jam 24:00`
 }
 exports.noregis = (pushname) =>{
-	return` 🙅‍♀️ Halo ${pushname} u blom daftar. ketik .daftar dulu`
+	return` 🙅‍♀️ Hello ${pushname} you haven't registeredar, type register/daftar first`
 	}
 exports.regis = () =>{
-	return`  udah daftar anjing`
+	return`  you already registered`
 	}
 exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
-	return` *PENDAFTARAN BERHASIL*
+	return` *SUCCESSFUL REGISTRATION*
 
 • Nama : ${pushname}
 • Nomor : ${sender.split("@")[0]}
 • Waktu : ${time}
 • Serial : ${serialUser}
 
-Sekarang ketik .menu untuk melihat 
-fitur bot.
+Now tap the menu to see the featuress.
 `
 	}
 exports.owner = (botname) =>{
