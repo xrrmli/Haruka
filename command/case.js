@@ -385,7 +385,7 @@ if (!isHaruka) return sendButMessage(from, lang.noregis(pushname), `Klik Button 
 				break
 case 'infobot':
 if (!isHaruka) return sendButMessage(from, lang.noregis(pushname), `Klik Button Untuk Verify`, [{buttonId: '.daftar',buttonText: {displayText: `Daftar`,},type: 1,}], {quoted: fgif});
-			reply('Bot WhatsApp Yang Digunakan Untuk Bersenang-Senang/nBOT Ini Memiliki Banyak Fitur Keren, Bekerja Dengan JavaScript\nDonate : https://saweria.co/xrrmli!')
+			reply('Bot WhatsApp Yang Digunakan Untuk Bersenang-Senang\nBOT Ini Memiliki Banyak Fitur Keren, Bekerja Dengan JavaScript\nDonate : https://saweria.co/xrrmli!')
 break
 case 'owner':{
 	if (!isHaruka) return sendButMessage(from, lang.noregis(pushname), `Klik Button Untuk Verify`, [{buttonId: '.daftar',buttonText: {displayText: `Daftar`,},type: 1,}], {quoted: fgif});
