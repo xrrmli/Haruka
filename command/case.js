@@ -402,7 +402,7 @@ case 'owner':{
 					"displayName": `${ini_list.length} kontak`,
 					"contacts": ini_list 
 					}, 'contactsArrayMessage', { quoted: mek })
-					haruka.sendMessage(from, `Nih Kak Contact Owner Ku, Cuma Sv Nomor Cewe Ya 🤝`, text, {quoted: hehe})
+					haruka.sendMessage(from, `OWNER `, text, {quoted: hehe})
 				}
 			break
 case 'sticker':case 'stiker':case 'stickergif':case 'stikergif':case 'sgif':case 's':
