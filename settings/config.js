@@ -10,7 +10,7 @@ global.anti_delete = false
 global.ownername ="ram"
 global.ownernumber = "6285892793169"
 global.botname = "R-Bot"
-global.thumbnail = fs.readFileSync("./settings/Haruka.jpg") //sesuaikan dengan nama foto
+global.thumbnail = fs.readFileSync("./settings/Rpic.jpg") //sesuaikan dengan nama foto
 global.background = "https://telegra.ph/file/ec68173a36faa3f70632e.jpg"
 global.limit = {
 		free:20,
