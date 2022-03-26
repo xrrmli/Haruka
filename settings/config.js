@@ -8,7 +8,7 @@ global.anti_delete = false
 
 // setting
 global.ownername ="ram"
-global.ownernumber = "6285892793169"
+global.ownernumber = "6287822886876"
 global.botname = "r-ubot"
 global.thumbnail = fs.readFileSync("./settings/Rpic.jpg") //sesuaikan dengan nama foto
 global.background = "https://telegra.ph/file/ec68173a36faa3f70632e.jpg"
